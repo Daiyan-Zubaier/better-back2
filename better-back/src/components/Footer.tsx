@@ -8,10 +8,10 @@ const Footer = () => {
         <p>© 2025 Scoli Inc. All rights reserved.</p>
       </div>
       <div className="flex gap-6">
-        <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>
-        <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
-        <Link to="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link>
-        <Link to="/support" className="hover:text-white transition-colors">Support</Link>
+        <a href="https://scoli.app/terms/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Terms</a>
+        <a href="https://scoli.app/privacy/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Privacy</a>
+        <a href="https://scoli.app/disclaimer/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Disclaimer</a>
+        <a href="mailto:support@scoli.app" rel="noopener noreferrer" className="hover:text-white transition-colors">Support</a>
       </div>
     </footer>
   );

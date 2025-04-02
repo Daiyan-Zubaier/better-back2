@@ -16,10 +16,13 @@ const Navigation = () => {
         </div>
       </div>
       <div>
-        <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 flex items-center gap-2">
-          <Download className="w-4 h-4" />
-          <span>Download App</span>
-        </Button>
+        <a href="https://apps.apple.com/ca/app/scoli/id6741025066" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 flex items-center gap-2">
+            <Download className="w-4 h-4" />
+            <span>Download App</span>
+          </Button>
+        </a>
+        
       </div>
     </nav>
   );
