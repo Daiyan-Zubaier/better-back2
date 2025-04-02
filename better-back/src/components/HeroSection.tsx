@@ -131,7 +131,7 @@ const HeroSection = () => {
           </p>
           
           <Button className="bg-white text-black hover:bg-white/90 font-medium flex items-center gap-2">
-            Start Today
+            Learn More
             <ArrowRight className="w-4 h-4" />
           </Button>
         </div>
